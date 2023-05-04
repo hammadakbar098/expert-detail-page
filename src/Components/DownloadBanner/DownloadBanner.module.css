@@ -97,3 +97,10 @@
   letter-spacing: normal;
   color: #ffffff;
 }
+
+.appIconsBanner {
+  width: 100%;
+}
+.iconBannerContainer {
+  width: 2.41vw;
+}

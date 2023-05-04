@@ -29,7 +29,7 @@ export const ProductResult = () => {
                 fontWeight={"bold"}
               />
             </div>
-            <div>
+            <div className={Styles.imageResultContainer}>
               <Image
                 src={result1}
                 alt="Client Result"

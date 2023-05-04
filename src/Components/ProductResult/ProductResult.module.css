@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 70%;
+  width: 90%;
 }
 .productResultBtn {
   width: 4.23vw;
@@ -43,4 +43,7 @@
   position: absolute;
   bottom: 0;
   width: 7.46vw;
+}
+.imageResultContainer {
+  width: 80%;
 }

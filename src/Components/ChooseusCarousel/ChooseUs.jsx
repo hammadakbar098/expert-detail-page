@@ -50,7 +50,7 @@ export const ChooseUs = () => {
               <AiOutlineLeft
                 className={Styles.rotateLeftBtn}
                 color="white"
-                size={20}
+                size={"1.46vw"}
                 fontWeight={"bold"}
               />
             </div>
@@ -87,7 +87,7 @@ export const ChooseUs = () => {
               <AiOutlineRight
                 className={Styles.rotateRightBtn}
                 color="white"
-                size={20}
+                size={"1.46vw"}
                 fontWeight={"bold"}
               />
             </div>

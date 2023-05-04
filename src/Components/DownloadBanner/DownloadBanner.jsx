@@ -16,8 +16,12 @@ export const DownloadBanner = () => {
           </p>
           <div className={Styles.downloadBtnsContainer}>
             <div className={Styles.downloadAppBtn}>
-              <div>
-                <Image src={appstore} alt="App store" />
+              <div className={Styles.iconBannerContainer}>
+                <Image
+                  src={appstore}
+                  alt="App store"
+                  className={Styles.appIconsBanner}
+                />
               </div>
               <div>
                 <p className={Styles.getOn}>Get it on</p>
@@ -25,8 +29,12 @@ export const DownloadBanner = () => {
               </div>
             </div>
             <div className={Styles.downloadAppBtn}>
-              <div>
-                <Image src={apple} alt="App store" />
+              <div className={Styles.iconBannerContainer}>
+                <Image
+                  src={apple}
+                  alt="App store"
+                  className={Styles.appIconsBanner}
+                />
               </div>
               <div>
                 <p className={Styles.getOn}>Get it on</p>
