@@ -1,0 +1,21 @@
+.productResultContainer {
+  margin-top: 90px;
+}
+.productResutlContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.productResultBtn {
+  width: 57.9px;
+  height: 57.9px;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 0 rgba(219, 4, 6, 0.5);
+  background-color: #db0406;
+  margin: 0 -35px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999999;
+}

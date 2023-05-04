@@ -1,0 +1,74 @@
+.chooseusTreatmentImg {
+  width: 460px;
+}
+.chooseusMarginTop {
+}
+.chooseReason {
+  width: 446px;
+  height: 274px;
+  padding: 20px 22px 20px 22px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.chooseContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  margin-right: 50px;
+}
+.chooseusReasoning {
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #313131;
+}
+.chooseusReasoningDetail {
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: normal;
+  text-align: left;
+  color: #6c6c6c;
+  margin-top: 10px;
+}
+.chooseusBtns {
+  width: 35px;
+  height: 35px;
+  box-shadow: 0 0 2px 0 rgba(219, 4, 6, 0.5);
+  background-color: #db0406;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* transform: rotate(-90deg); */
+  /* opacity: 1 !important; */
+}
+.chooseusReasonCard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+  margin-left: 50px;
+}
+.chooseBtnBackground {
+  transform: rotate(90deg);
+  /* padding-top: 5px; */
+  z-index: 99999;
+}
+.rotateRightBtn {
+  transform: rotate(90deg);
+}
+.rotateLeftBtn {
+  transform: rotate(-90deg);
+}
+.chooseusHeadingTopMargin {
+}
+.paddingTopChooseus {
+  margin-top: 30px;
+  padding-top: 50px;
+}
