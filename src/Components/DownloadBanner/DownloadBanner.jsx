@@ -36,7 +36,11 @@ export const DownloadBanner = () => {
           </div>
         </div>
         <div className={Styles.downloadImage}>
-          <Image src={mobile} alt="Expert Mobile App" />
+          <Image
+            src={mobile}
+            alt="Expert Mobile App"
+            className={Styles.bannerImageWidth}
+          />
         </div>
       </div>
     </div>

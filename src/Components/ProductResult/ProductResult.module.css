@@ -1,21 +1,46 @@
 .productResultContainer {
-  margin-top: 90px;
+  /* margin-top: 6.58vw; */
+  margin-bottom: 11vw;
 }
 .productResutlContainer {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 70%;
 }
 .productResultBtn {
-  width: 57.9px;
-  height: 57.9px;
+  width: 4.23vw;
+  height: 4.23vw;
   border-radius: 50%;
-  box-shadow: 0 0 2px 0 rgba(219, 4, 6, 0.5);
+  box-shadow: 0 0 0.14vw 0 rgba(219, 4, 6, 0.5);
   background-color: #db0406;
-  margin: 0 -35px;
+  margin: 0 -2.56vw;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 999999;
+}
+.procedureImage {
+  width: 100%;
+}
+.alignDisplayContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productResultFeather {
+  position: relative;
+}
+.procedureFeatherRight {
+  position: absolute;
+  right: 0;
+  width: 5.85vw;
+  top: 8.78vw;
+  margin-right: 3.8vw;
+}
+.procedureFeatherBottom {
+  position: absolute;
+  bottom: 0;
+  width: 7.46vw;
 }

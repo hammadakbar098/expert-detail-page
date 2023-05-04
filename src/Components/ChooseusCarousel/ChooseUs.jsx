@@ -14,6 +14,7 @@ export const ChooseUs = () => {
       style={{
         backgroundImage: `url(${backgound.src})`,
         width: "100%",
+        backgroundSize: "cover",
       }}
     >
       <Heading
@@ -36,13 +37,13 @@ export const ChooseUs = () => {
             className={Styles.chooseBtnBackground}
             style={{
               backgroundImage: `url(${backgound.src})`,
-              width: "40px",
-              height: "20px",
-              borderRadius: "20px 20px 0 0",
+              width: "2.92vw",
+              height: "1.46vw",
+              borderRadius: "1.46vw 1.46vw 0 0",
               display: "flex",
               justifyContent: "center",
-              marginRight: "-30px",
-              paddingTop: "4.5px",
+              marginRight: "-2.19vw",
+              paddingTop: "0.32vw",
             }}
           >
             <div className={Styles.chooseusBtns}>
@@ -71,15 +72,15 @@ export const ChooseUs = () => {
             className={Styles.chooseBtnBackground}
             style={{
               backgroundImage: `url(${backgound.src})`,
-              width: "40px",
-              height: "20px",
-              borderRadius: "20px 20px 0 0",
+              width: "2.92vw",
+              height: "1.46vw",
+              borderRadius: "1.46vw 1.46vw 0 0",
               display: "flex",
               justifyContent: "center",
-              marginLeft: "-30px",
+              marginLeft: "-2.19vw",
               paddingBottom: "5px",
               transform: "rotate(270deg)",
-              paddingTop: "4.5px",
+              paddingTop: "0.32vw",
             }}
           >
             <div className={Styles.chooseusBtns}>

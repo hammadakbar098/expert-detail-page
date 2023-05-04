@@ -5,17 +5,17 @@
   justify-content: space-evenly;
   /* align-items: flex-start; */
   align-items: center;
-  margin-top: 80px;
-  padding: 0 20px;
+  margin-top: 5.85vw;
+  padding: 0 1.46vw;
 }
 .infoChild .iconImage {
-  width: 80px;
-  height: 80px;
-  margin-right: 31px;
+  width: 5.85vw;
+  height: 5.85vw;
+  margin-right: 2.26vw;
 }
 .infoHeading {
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 1.17vw;
   font-weight: 500;
   font-stretch: normal;
   font-style: normal;
@@ -25,27 +25,27 @@
 }
 .infoTitle {
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 1.02vw;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.4;
   letter-spacing: normal;
   color: #6c6c6c;
-  margin-top: 5px;
+  margin-top: 0.36vw;
 }
 
 .infoChild {
   width: 27%;
   display: flex;
   align-items: center;
-  padding: 16px 0;
+  padding: 1.17vw 0;
 }
 .infoContainer hr {
-  width: 1px;
-  height: 80px;
+  width: 0.07vw;
+  height: 5.85vw;
   background-color: black;
   opacity: 0.1;
-  margin: 0 15px;
+  margin: 0 1.09vw;
   /* margin-top: 32px; */
 }

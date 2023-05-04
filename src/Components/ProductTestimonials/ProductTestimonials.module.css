@@ -1,12 +1,14 @@
 .productTestimonialsContainer {
-  margin-top: 90px;
+  /* margin-top: 6.58vw; */
+  /* padding-top: 30px; */
+  padding-bottom: 5vw;
 }
 .testimonialContainer {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  margin-top: 60px;
+  margin-top: 8vw;
 }
 .testimonialCarouselMain {
   display: flex;
@@ -20,13 +22,13 @@
   z-index: 222222;
 }
 .btnHandleTestimonial {
-  width: 57.9px;
-  height: 57.9px;
+  width: 4.23vw;
+  height: 4.23vw;
   border-radius: 50%;
   /* padding: 20.3px 24.1px 21.8px 25.9px; */
-  box-shadow: 0 0 2px 0 rgba(219, 4, 6, 0.5);
+  box-shadow: 0 0 0.14vw 0 rgba(219, 4, 6, 0.5);
   background-color: #db0406;
-  margin: 0 -30px;
+  margin: 0 -2.19vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,9 +36,9 @@
 }
 .testimonialImageSecondary {
   /* width: 20vw; */
-  height: 100px;
   z-index: -2222222;
   position: absolute;
+  /* margin-left: 2vw; */
 }
 /* .imageLeft {
   position: absolute;
@@ -49,5 +51,17 @@
 } */
 .secondaryImgContainer {
   width: 47vw;
-  margin: 0 30px;
+  /* margin: 0 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonialFeather {
+  position: relative;
+}
+.testimonialFeatherBottom {
+  position: absolute;
+  top: -4.39vw;
+  margin-left: 12.7vw;
+  width: 8.05vw;
 }

@@ -11,7 +11,12 @@ export const Hero = () => {
         <div className={Style.heroContent}>
           {/* Back btn */}
           <div className={Style.backBtn}>
-            <AiOutlineLeft size={22} fontWeight={"bold"} color="#4a4a4a" />
+            <AiOutlineLeft
+              size={22}
+              fontWeight={"bold"}
+              color="#4a4a4a"
+              className={Style.heroIconsHeight}
+            />
             <p>Back</p>
           </div>
           {/* Title */}
@@ -31,7 +36,7 @@ export const Hero = () => {
 
           {/* Time */}
           <div className={Style.requiredTime}>
-            <Image src={watch} alt="time" />
+            <Image src={watch} alt="time" className={Style.heroIconsHeight} />
             <p>20 Minutes</p>
           </div>
           {/* Buttons */}
@@ -39,12 +44,12 @@ export const Hero = () => {
           <div className={Style.cartContent}>
             <button className={Style.consultBtn}> Free Consultation</button>
             <div className={Style.cartBtn}>
-              <Image src={cart} alt="Cart" />
+              <Image src={cart} alt="Cart" className={Style.heroIconsHeight} />
             </div>
           </div>
         </div>
         <div className={Style.heroImg}>
-          <Image src={hero} alt="Cart" />
+          <Image src={hero} alt="Cart" className={Style.heroImageSection} />
         </div>
       </div>
     </>

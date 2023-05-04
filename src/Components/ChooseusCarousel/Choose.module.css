@@ -1,24 +1,24 @@
 .chooseusTreatmentImg {
-  width: 460px;
+  width: 33.67vw;
 }
 .chooseusMarginTop {
 }
 .chooseReason {
-  width: 446px;
-  height: 274px;
-  padding: 20px 22px 20px 22px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.16);
+  width: 32.6vw;
+  height: 20.05vw;
+  padding: 1.46vw 1.61vw 1.46vw 1.61vw;
+  box-shadow: 0 0 0.29vw 0 rgba(0, 0, 0, 0.16);
   background-color: #ffffff;
-  border-radius: 15px;
+  border-radius: 1.09vw;
 }
 .chooseContainer {
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
-  margin-right: 50px;
+  margin-right: 3.66vw;
 }
 .chooseusReasoning {
-  font-size: 20px;
+  font-size: 1.46vw;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -27,7 +27,7 @@
   color: #313131;
 }
 .chooseusReasoningDetail {
-  font-size: 14px;
+  font-size: 1.02vw;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -35,12 +35,12 @@
   letter-spacing: normal;
   text-align: left;
   color: #6c6c6c;
-  margin-top: 10px;
+  margin-top: 0.73vw;
 }
 .chooseusBtns {
-  width: 35px;
-  height: 35px;
-  box-shadow: 0 0 2px 0 rgba(219, 4, 6, 0.5);
+  width: 2.56vw;
+  height: 2.56vw;
+  box-shadow: 0 0 0.1.02vw 0 rgba(219, 4, 6, 0.5);
   background-color: #db0406;
   border-radius: 50%;
   display: flex;
@@ -52,8 +52,8 @@
 .chooseusReasonCard {
   display: flex;
   align-items: center;
-  margin-bottom: 90px;
-  margin-left: 50px;
+  margin-bottom: 6.58vw;
+  margin-left: 3.66vw;
 }
 .chooseBtnBackground {
   transform: rotate(90deg);
@@ -69,6 +69,6 @@
 .chooseusHeadingTopMargin {
 }
 .paddingTopChooseus {
-  margin-top: 30px;
-  padding-top: 50px;
+  margin-top: 2.19vw;
+  padding-top: 3.66vw;
 }

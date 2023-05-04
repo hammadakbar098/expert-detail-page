@@ -20,6 +20,12 @@ import backgound from "./background.png";
 import treatment from "./treatment.png";
 import benefits from "./benefits1.png";
 import userProfile from "./user.png";
+import feather1 from "./feather11.png";
+import feather2 from "./feather2.png";
+import prodceduretop from "./proceduretop.png";
+import procedurebottom from "./procedurebottom.png";
+import procedureright from "./procedureright.png";
+import feather from "./feather.png";
 
 export {
   hero,
@@ -44,4 +50,10 @@ export {
   treatment,
   benefits,
   userProfile,
+  feather1,
+  feather2,
+  procedurebottom,
+  procedureright,
+  prodceduretop,
+  feather,
 };

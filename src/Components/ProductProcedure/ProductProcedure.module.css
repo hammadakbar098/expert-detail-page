@@ -1,44 +1,74 @@
 .productProcedureContainer {
-  margin-top: 90px;
+  /* margin-top: 8vw; */
+  width: 100%;
+}
+.procedureSpacing {
+  padding-top: 7vw;
 }
 .borderText {
   /* width: 210px; */
-  height: 24px;
-  border: 1.4px solid #959595;
+  height: 1.75vw;
+  border: 0.1vw solid #959595;
   text-align: center;
   transform: rotate(180deg);
   border-bottom: 0;
-  margin-top: 13px;
+  margin-top: 0.95vw;
 }
 .borderText legend {
-  padding: 0 10px;
+  padding: 0 0.73vw;
   color: #959595;
   transform: rotate(180deg);
   font-weight: 500;
 }
 .procedureCount {
-  width: 36.4px;
-  height: 36.4px;
+  width: 2.66vw;
+  height: 2.66vw;
   border-radius: 50%;
   background-color: #959595;
   color: white;
-  font-size: 20px;
+  font-size: 1.46vw;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-top: 13px;
+  margin-top: 0.95vw;
 }
 .alignProcedureImageBox {
   display: flex;
   flex-direction: column;
-  /* width: 210px; */
+  width: 15.37vw;
+  width: auto;
+  margin: 0 1vw;
 }
 .procedureStepAlign {
   display: flex;
   align-items: flex-end;
-  justify-content: space-evenly;
-  margin-top: 50px;
+  justify-content: center;
+  margin-top: 3.66vw;
 }
 .procedureImage {
+  width: 100%;
+}
+
+.procedureFeather {
+  position: relative;
+  padding-bottom: 11.71vw;
+}
+.prodceduretop {
+  position: absolute;
+  margin-top: 4vw;
+  width: 4.24vw;
+}
+.prodcedureright {
+  position: absolute;
+  right: 0;
+  top: 11.71vw;
+  margin-right: 8.78vw;
+  width: 4.31vw;
+}
+.prodcedurebottom {
+  position: absolute;
+  bottom: 0;
+  margin-left: 8.41vw;
+  width: 5.34vw;
 }
